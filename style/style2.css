@@ -173,7 +173,7 @@ footer{
     .poucecheckoui{
         display: none;
     }
-    .pouce:checked + label{
+    .pouce:checked + label, .pouce:hover + label{
         .poucecheckoui{
             display: block;
         }
